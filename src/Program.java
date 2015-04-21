@@ -25,16 +25,15 @@ public class Program
         System.out.println("Let's get the Statement");
         result = c1.statement();
         System.out.println(result);
-        //test(result);
+        test(result);
     }
     
     public static void test(String res){
     	
     	String Ref = "Rental Record for joe\n\tTitle\t\tDays\tAmount\n\tmovie1\t\t10\t30.0\n\tmovie2\t\t5\t4.5\nAmount owed is 34.5\nYou earned 3 frequent renter points";
-    	System.out.println("\n"+res);
-    	System.out.println("\n"+Ref);
-    	if (res == Ref){System.out.println("\nOK");}
-    	else {System.out.println("\nFehler!");}
+    	System.out.println("\nDer Korrekte String:\n"+Ref);
+    	//if (res == Ref){System.out.println("\nOK");}
+    	//else {System.out.println("\nFehler!");}
     	    	
     }
 }
