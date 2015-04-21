@@ -30,14 +30,6 @@ public class Movie {
         return title;
     }
     
-	int getFrequentRenterPoints(Rental rental) {
-		// add frequent renter points
-		if ((rental.getMovie().getMovie().getPriceCode() == Movie.NEW_RELEASE) &&
-				rental.getDaysRented() > 1)
-			return 2;
-		else
-			return 1;
-	}
 	public Movie getMovie() {
 	    return this;
 	};
